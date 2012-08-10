@@ -1,0 +1,8 @@
+@CHARSET "utf-8";
+.vewp_view td{
+	vertical-align:middle;
+}
+
+.vemp_view img{
+	max-width:100%;
+}

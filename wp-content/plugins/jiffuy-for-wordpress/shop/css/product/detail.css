@@ -1,0 +1,21 @@
+/* jiffuyShopDetail v1.0 */
+div.jiffuyShopDetail p.back {margin:0;padding:14px 0 14px 0;}
+div.jiffuyShopDetail p.back a {color:#373737;text-decoration:underline;}
+div.jiffuyShopDetail h2 {color:#373737;font-size:14px;margin:0;padding:0 0 18px 0;font-weight:bold;}
+div.jiffuyShopDetail h2 a {color:#373737;text-decoration:none;}
+div.jiffuyShopDetail h2 a:hover {color:#000;text-decoration:underline;}
+div.jiffuyShopDetail h2 a:visited {text-decoration:none;}
+div.jiffuyShopDetail a.image {display:inline-block;*display:inline;zoom:1;vertical-align:top;width:210px;height:210px;margin:3px 0 0 0;padding:0;}
+div.jiffuyShopDetail a.image img {border:3px solid #f1f1f1;margin:0;padding:0;}
+div.jiffuyShopDetail a.image:hover img {border:3px solid #999;}
+div.jiffuyShopDetail div.meta {display:inline-block;*display:inline;zoom:1;vertical-align:top;}
+div.jiffuyShopDetail div.meta p {color:#373737;font-size:14px;margin:0;padding:0 0 8px 0;}
+div.jiffuyShopDetail div.meta p strong {color:#373737;}
+div.jiffuyShopDetail div.meta p span {color:#373737;font-size:12px;margin:0;padding:0;}
+div.jiffuyShopDetail div.meta p span a {color:#373737;}
+div.jiffuyShopDetail div.meta a.price {text-decoration:none;color:#373737;font-weight:bold;}
+div.jiffuyShopDetail div.meta a.price:hover {text-decoration:underline;color:#000;}
+div.jiffuyShopDetail div.meta a.goto {margin:0;padding:0;display:block;width:160px;height:40px;}
+div.jiffuyShopDetail div.meta a.goto span {display:none;}
+div.jiffuyShopDetail p.desc {color:#373737;font-size:14px;margin:0 0 20px 0;padding:0;}
+div.jiffuyShopDetail p.di {display:block;margin:5px 0 25px 0;padding:0;text-align:center;background:#f1f1f1;}

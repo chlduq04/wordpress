@@ -1,0 +1,21 @@
+/* jiffuyShopOverview v1.0 */
+div.jiffuyShopOverview h2 {color:#373737;font-size:14px;margin:0;padding:0;font-weight:bold;}
+div.jiffuyShopOverview ul.pcollection {list-style-type:none;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li {margin:10px 10px 0 0;padding:0;display:inline-block;*display:inline;zoom:1;vertical-align:top;width:186px;height:340px;text-align:center;overflow:hidden;}
+div.jiffuyShopOverview ul.pcollection li a.image {display:block;width:180px;height:180px;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li a.image img {border:3px solid #f1f1f1;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li a.image:hover img {border:3px solid #999;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li div.meta {width:186px;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li div.meta h3 {font-size:12px;margin:10px 0 4px 0;padding:0;font-weight:bold;overflow:hidden;height:38px;}
+div.jiffuyShopOverview ul.pcollection li div.meta h3 a {color:#373737;margin:0;padding:0;text-decoration:none;}
+div.jiffuyShopOverview ul.pcollection li div.meta h3 a:hover {color:#000;text-decoration:underline;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li div.meta h3 a:visited {color:#373737;text-decoration:none;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li div.meta p {color:#373737;text-align:center;font-size:11px;margin:0;padding:0;line-height:18px;}
+div.jiffuyShopOverview ul.pcollection li div.meta p strong {color:#373737;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li div.meta p span {color:#373737;margin:0;padding:0;}
+div.jiffuyShopOverview ul.pcollection li div.meta p a.price {color:#373737;text-decoration:none;}
+div.jiffuyShopOverview ul.pcollection li div.meta p a.price:hover {color:#000;text-decoration:underline;}
+div.jiffuyShopOverview ul.pcollection li div.meta p a.goto {display:inline-block;*display:inline;zoom:1;vertical-align:top;margin:5px auto 0 auto;padding:0;display:block;width:160px;height:40px;}
+div.jiffuyShopOverview ul.pcollection li div.meta a.goto {margin:0;padding:0;display:block;width:160px;height:40px;}
+div.jiffuyShopOverview ul.pcollection li div.meta a.goto span {display:none;margin:0;padding:0;}
+div.jiffuyShopOverview p.di {display:block;margin:10px 0 20px 0;text-align:center;background:#f1f1f1;}

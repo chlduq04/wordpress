@@ -1,0 +1,14 @@
+@CHARSET "utf-8";
+
+.ui-preview {
+    font-size: 12px;
+}
+
+.ui-preview input[type = text] {
+    width: 100%;
+}
+
+.ui-preview small {
+    font-size: 9px;
+    color: #777;
+}
