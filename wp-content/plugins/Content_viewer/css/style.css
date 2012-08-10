@@ -1,14 +1,14 @@
 @CHARSET "utf-8";
 
-.ui-preview {
+.vemp_ui-preview {
     font-size: 12px;
 }
 
-.ui-preview input[type = text] {
+.vemp_ui-preview input[type = text], select{
     width: 100%;
 }
 
-.ui-preview small {
-    font-size: 9px;
+.vemp_ui-preview small {
+    font-size: 10px;
     color: #777;
 }

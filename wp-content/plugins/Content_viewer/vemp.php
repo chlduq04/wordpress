@@ -27,6 +27,8 @@ class vemp_preview extends WP_Widget {
 			$title = $instance['title'];
 			$length = $instance['length'];
 			$content_length = $instance['content_length'];
+			
+			$category = str_replace('c:', '', $instance['category']);
 			include('includes/view.php');
 		}
 	}
@@ -39,6 +41,9 @@ class vemp_preview extends WP_Widget {
 		$instance['title'] = strip_tags(stripslashes($new_instance['title']));
 		$instance['length'] = strip_tags(stripslashes($new_instance['length']));
 		$instance['content_length'] = strip_tags(stripslashes($new_instance['content_length']));
+		$instance['category'] = strip_tags(stripslashes($new_instance['category']));
+		//$instance['v_index'] = strip_tags(stripslashes($new_instance['v_index']));
+		
 		return $instance;
 	}
 
@@ -49,6 +54,8 @@ class vemp_preview extends WP_Widget {
 		$title = htmlspecialchars($instance['title']);
 		$length = htmlspecialchars($instance['length']);
 		$content_length = htmlspecialchars($instance['content_length']);
+		$category = htmlspecialchars($instance['category']);
+		//$v_index = htmlspecialchars($instance['v_index']);
 		/* Print interface */
 		include('includes/vemp_ui.php');
 	}

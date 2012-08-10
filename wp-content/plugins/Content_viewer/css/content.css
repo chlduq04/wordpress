@@ -1,6 +1,7 @@
 @CHARSET "utf-8";
 .vewp_view td{
 	vertical-align:middle;
+	text-align:left;
 }
 
 .vemp_view img{

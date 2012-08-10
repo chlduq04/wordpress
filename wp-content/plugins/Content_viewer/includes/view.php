@@ -1,23 +1,22 @@
 
 
 <div class="vewp_view">
+
 	<?php
 	include_once('db_query.php');
 	$view = $args['before_widget'].$args['before_title'];
-	$data = get_recently_posts($length);
+	$data = get_recently_posts($length,$category);
 	$match;
 	$img_link;
 
 	/** title setting */
-	if($title != NULL){
-		$view .=$title;
-	}else{
-		$view .="Preview";
-	}
+	if($title == NULL)
+	{$view .="Preview";}
 	if($content_length==NULL)
-		$content_length = 20;
+	{$content_length = 20;}
 	if($length==NULL)
-		$length = 3;
+	{$length = 3;}
+	$view .=$title;
 	$view .= $args['after_title'];
 	$view .="<table><tr>";
 	
@@ -47,4 +46,4 @@
 	echo $view;
 
 	?>
-</div>
+	</div>

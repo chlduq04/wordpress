@@ -87,7 +87,6 @@ function spp_get_categories() {
   );
   return $categories;
 }
-
 /**
  * Get all available thumbnail sizes
  * Retreived the data from the last uploaded picture.
